@@ -10,7 +10,7 @@ interface SideBarProviderProps {
 
 const SideBarContext = createContext({} as SideBarContextProps);
 
-export function SiderBarContextProvider({ children }: SideBarProviderProps) {
+export function SideBarContextProvider({ children }: SideBarProviderProps) {
 
     const disclosure = useDisclosure();
     const router = useRouter();
